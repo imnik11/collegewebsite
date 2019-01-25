@@ -1,0 +1,25 @@
+* {
+    
+}
+.r-and-d{
+    display: flex;
+    flex-direction: row;
+    justify-content: start space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis: 33.33%;
+}
+.four-plate{
+    display: flex;
+    flex-direction: row;
+    justify-content: start space-evenly;
+    flex-wrap: wrap;
+}
+.four-plate .card{
+    flex-basis: 25%;
+}
+.four-plate .card-title{
+    width: 100%;
+    text-align: center;
+}

@@ -23,3 +23,115 @@
     width: 100%;
     text-align: center;
 }
+.layout{
+    background: #000;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.message{
+    display: block;
+    background: #ccc;
+    margin-left: 0;
+    width: 80%;
+    max-width: 100%;
+}
+.message .heading{
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.aside{
+    width: 20%;
+ float: right;
+ background: #a9a9a9;
+ margin: 0;
+}
+.aside-ul{
+    margin: 0;
+    padding: 0;
+}
+.aside .aside-ul .aside-items{
+    list-style: none;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5%;
+    border: 1px solid #212224
+  
+}
+.aside .aside-ul .aside-items a{
+    font-family: 'Merienda', cursive;
+    color: #ccc;
+   ;
+}
+
+.aside .aside-ul .aside-items:hover{
+    background: #fff;
+}
+.footer{
+ display: block;
+ width: 100%;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #0A0A0A;
+}
+
+.footer-top .card{
+    width: 25%;
+    border-radius: 0;
+    background: #0A0A0A;
+    padding: 2rem 0;
+}
+
+.footer-top .card a{
+    text-align: center;
+    color: #fff;
+    font-size: 0.7rem;
+    margin: 5px;
+     
+}
+.footer-top .card a:hover{
+    transition: all 2s ease-in;
+}
+.footer-top .card .link-head{
+    font-size: 1rem;
+}
+
+.footer-bottom{
+    background: #0A0A0A;
+    color: #fff;
+    padding-bottom: 10px ;
+    padding-left: 15px;
+    display: flex;
+     flex-direction: row;
+     justify-content: baseline;
+    width:100%;
+
+}
+.footer-bottom .iiit-copy{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    height: 100%;
+    width: 50%;
+}
+.footer-bottom .footer-bottom-row{
+    width: 50%;
+}
+.footer-bottom .footer-bottom-row h2{
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+.footer-bottom .footer-bottom-row p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
